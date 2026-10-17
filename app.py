@@ -44,9 +44,24 @@ def main():
 	elif choice == "ML":
 		run_ml_app()
 	else:
-		st.subheader("About")
+		st.subheader("About the Diabetes Prediction App")
+		st.write("This app helps you explore diabetes data and use " 
+			"machine learning models to predict diabetes status " 
+			"based on the information you enter.")
 
+		st.markdown("""
+		**Features:**
+		- Explore the dataset and descriptive statistics.
+		- View interactive charts and distributions.
+		- Enter information to generate a model prediction.
+		- Compare predictions from the available models.
 
+		**Technologies:** Python, Streamlit, Pandas, NumPy,
+		Scikit-learn, Joblib, Matplotlib, Seaborn and Plotly.
+
+		**Developed by:** John Bernard Conteh  
+		**JBC@Science_Care_SL**
+		        """)
 
 
 
